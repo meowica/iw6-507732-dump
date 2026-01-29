@@ -1,0 +1,14 @@
+0,none,MPUI_NONE,PERKS_STANDARD_FINISH,weapon_missing_image,,
+1,classic,MPUI_CLASSIC,PERKS_CLASSIC,img_camo_classic,img_camo_classic,
+2,snow,MPUI_SNOW,PERKS_SNOW,img_camo_snow,img_camo_snow,
+3,multi,MPUI_MULTI,PERKS_MULTI,img_camo_multi,img_camo_multi,
+4,d_urban,MPUI_D_URBAN,PERKS_D_URBAN,img_camo_digital,img_camo_digital,
+5,hex,MPUI_HEX,PERKS_HEX,img_camo_hex,img_camo_hex,
+6,choco,MPUI_CHOCO,PERKS_CHOCO,img_camo_choco,img_camo_choco,
+7,snake,MPUI_SNAKE,PERKS_SNAKE,img_camo_snake,img_camo_snake,
+8,blue,MPUI_BLUE,PERKS_BLUE,img_camo_blue,img_camo_blue,
+9,red,MPUI_RED,PERKS_RED,img_camo_red,img_camo_red,
+10,autumn,MPUI_AUTUMN,PERKS_AUTUMN,img_camo_autumn,img_camo_autumn,
+11,gold,MPUI_GOLD,PERKS_GOLD,img_camo_gold,img_camo_gold,
+12,marine,MPUI_MARINE,PERKS_MARINE,img_camo_marine,img_camo_marine,1
+13,winter,MPUI_WINTER,PERKS_WINTER,img_camo_winter,img_camo_winter,2

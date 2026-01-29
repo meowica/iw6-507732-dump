@@ -1,0 +1,246 @@
+{
+	map			"mp_dome"
+	longname	"MPUI_DOME"
+	gametype	"dm war sab sab2 dom sd sd2 hc thc ctf koth"
+	description "MPUI_DESC_MAP_DOME"
+	mapimage    "preview_mp_dome"
+	mapoverlay  "compass_overlay_map_blank"
+	allieschar  "military"
+	axischar    "pmc"
+	environment "desert"
+	mappack		"0"
+}
+
+{
+	map			"mp_plaza2"
+	longname	"MPUI_ARKADEN"
+	gametype	"dm war sab sab2 dom sd sd2 hc thc ctf koth"
+	description "MPUI_DESC_MAP_ARKADEN"
+	mapimage    "preview_mp_plaza2"
+	mapoverlay  "compass_overlay_map_blank"
+	allieschar  "military"
+	axischar    "pmc"
+	environment "urban"
+	mappack		"0"
+}
+
+{
+	map			"mp_paris"
+	longname	"MPUI_RESISTANCE"
+	gametype	"dm war sab sab2 dom sd sd2 hc thc ctf koth"
+	description "MPUI_DESC_MAP_RESISTANCE"
+	mapimage    "preview_mp_paris"
+	mapoverlay  "compass_overlay_map_blank"
+	allieschar  "military"
+	axischar    "pmc"
+	environment "urban"
+	mappack		"0"
+}
+
+{
+	map			"mp_prisonbreak"
+	longname	"MPUI_PRISONBREAK"
+	gametype	"dm war sab sab2 dom sd sd2 hc thc ctf koth"
+	description "MPUI_DESC_MAP_PRISONBREAK"
+	mapimage    "preview_mp_prisonbreak"
+	mapoverlay  "compass_overlay_map_blank"
+	allieschar  "military"
+	axischar    "pmc"
+	environment "urban"
+	mappack		"0"
+}
+
+{
+	map			"mp_dart"
+	longname	"MPUI_DART"
+	gametype	"dm war sab sab2 dom sd sd2 hc thc ctf koth"
+	description "MPUI_DESC_MAP_DART"
+	mapimage    "preview_mp_dart"
+	mapoverlay  "compass_overlay_map_blank"
+	allieschar  "military"
+	axischar    "pmc"
+	environment "urban"
+	mappack		"0"
+}
+
+{
+	map			"mp_lonestar"
+	longname	"MPUI_LONESTAR"
+	gametype	"dm war sab sab2 dom sd sd2 hc thc ctf koth"
+	description "MPUI_DESC_MAP_LONESTAR"
+	mapimage    "preview_mp_lonestar"
+	mapoverlay  "compass_overlay_map_blank"
+	allieschar  "military"
+	axischar    "pmc"
+	environment "urban"
+	mappack		"0"
+}
+
+{
+	map			"mp_frag"
+	longname	"MPUI_FRAG"
+	gametype	"dm war sab sab2 dom sd sd2 hc thc ctf koth"
+	description "MPUI_DESC_MAP_FRAG"
+	mapimage    "preview_mp_frag"
+	mapoverlay  "compass_overlay_map_blank"
+	allieschar  "military"
+	axischar    "pmc"
+	environment "urban"
+	mappack		"0"
+}
+
+{
+	map			"mp_snow"
+	longname	"MPUI_SNOW"
+	gametype	"dm war sab sab2 dom sd sd2 hc thc ctf koth"
+	description "MPUI_SNOW"
+	mapimage    "preview_mp_snow"
+	mapoverlay  "compass_overlay_map_blank"
+	allieschar  "military"
+	axischar    "pmc"
+	environment "urban"
+	mappack		"0"
+}
+
+{
+	map			"mp_fahrenheit"
+	longname	"MPUI_FAHRENHEIT"
+	gametype	"dm war sab sab2 dom sd sd2 hc thc ctf koth"
+	description "MPUI_DESC_MAP_FAHRENHEIT"
+	mapimage    "preview_mp_fahrenheit"
+	mapoverlay  "compass_overlay_map_blank"
+	allieschar  "military"
+	axischar    "pmc"
+	environment "urban"
+	mappack		"0"
+}
+
+{
+	map			"mp_hashima"
+	longname	"MPUI_HASHIMA"
+	gametype	"dm war sab sab2 dom sd sd2 hc thc ctf koth"
+	description "MPUI_DESC_MAP_HASHIMA"
+	mapimage    "preview_mp_hashima"
+	mapoverlay  "compass_overlay_map_blank"
+	allieschar  "military"
+	axischar    "pmc"
+	environment "urban"
+	mappack		"0"
+}
+
+{
+	map			"mp_warhawk"
+	longname	"MPUI_WARHAWK"
+	gametype	"dm war sab sab2 dom sd sd2 hc thc ctf koth"
+	description "MPUI_DESC_MAP_WARHAWK"
+	mapimage    "preview_mp_warhawk"
+	mapoverlay  "compass_overlay_map_blank"
+	allieschar  "military"
+	axischar    "pmc"
+	environment "urban"
+	mappack		"0"
+}
+
+{
+	map			"mp_sovereign"
+	longname	"MPUI_SOVEREIGN"
+	gametype	"dm war sab sab2 dom sd sd2 hc thc ctf koth"
+	description "MPUI_DESC_MAP_SOVEREIGN"
+	mapimage    "preview_mp_sovereign"
+	mapoverlay  "compass_overlay_map_blank"
+	allieschar  "military"
+	axischar    "pmc"
+	environment "urban"
+	mappack		"0"
+}
+
+{
+	map			"mp_zebra"
+	longname	"MPUI_ZEBRA"
+	gametype	"dm war sab sab2 dom sd sd2 hc thc ctf koth"
+	description "MPUI_DESC_MAP_ZEBRA"
+	mapimage    "preview_mp_zebra"
+	mapoverlay  "compass_overlay_map_blank"
+	allieschar  "military"
+	axischar    "pmc"
+	environment "urban"
+	mappack		"0"
+}
+
+{
+	map			"mp_skeleton"
+	longname	"MPUI_SKELETON"
+	gametype	"dm war sab sab2 dom sd sd2 hc thc ctf koth"
+	description "MPUI_DESC_MAP_SKELETON"
+	mapimage    "preview_mp_skeleton"
+	mapoverlay  "compass_overlay_map_blank"
+	allieschar  "military"
+	axischar    "pmc"
+	environment "urban"
+	mappack		"0"
+}
+
+{
+	map			"mp_chasm"
+	longname	"MPUI_CHASM"
+	gametype	"dm war sab sab2 dom sd sd2 hc thc ctf koth"
+	description "MPUI_DESC_MAP_CHASM"
+	mapimage    "preview_mp_chasm"
+	mapoverlay  "compass_overlay_map_blank"
+	allieschar  "military"
+	axischar    "pmc"
+	environment "urban"
+	mappack		"0"
+}
+
+{
+	map			"mp_descent"
+	longname	"MPUI_DESCENT"
+	gametype	"dm war sab sab2 dom sd sd2 hc thc ctf koth"
+	description "MPUI_DESC_MAP_DESCENT"
+	mapimage    "preview_mp_chasm"
+	mapoverlay  "compass_overlay_map_blank"
+	allieschar  "military"
+	axischar    "pmc"
+	environment "urban"
+	mappack		"0"
+}
+
+{
+	map			"mp_flooded"
+	longname	"MPUI_FLOODED"
+	gametype	"dm war sab sab2 dom sd sd2 hc thc ctf koth"
+	description "MPUI_DESC_MAP_FLOODED"
+	mapimage    "preview_mp_chasm"
+	mapoverlay  "compass_overlay_map_blank"
+	allieschar  "military"
+	axischar    "pmc"
+	environment "urban"
+	mappack		"0"
+}
+
+{
+	map			"mp_strikezone"
+	longname	"MPUI_STRIKEZONE"
+	gametype	"dm war sab sab2 dom sd sd2 hc thc ctf koth"
+	description "MPUI_DESC_MAP_STRIKEZONE"
+	mapimage    "preview_mp_chasm"
+	mapoverlay  "compass_overlay_map_blank"
+	allieschar  "military"
+	axischar    "pmc"
+	environment "urban"
+	mappack		"0"
+}
+
+{
+	map			"mp_alien_town"
+	longname	"MPUI_ALIEN_TOWN"
+	gametype	"Aliens"
+	description "MPUI_ALIEN_TOWN"
+	mapimage    "preview_mp_alien_town"
+	mapoverlay  "compass_overlay_map_blank"
+	allieschar  "military"
+	axischar    "pmc"
+	environment "urban"
+	mappack		"0"
+}

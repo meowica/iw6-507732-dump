@@ -1,0 +1,65 @@
+a0,b1,c2,d3,e4
+1,null,null,ny_manhattan,-2016, -2558, 63
+2,null,null,ny_manhattan,-2482, -725, 336
+3,null,null,ny_manhattan,-736, 1474, -7
+4,null,null,ny_manhattan,-2137, 2688, 270
+5,null,null,ny_manhattan,-1800, 1844, 1544
+6,null,null,ny_harbor,-37333, -23603, -320
+7,null,null,ny_harbor,-38718, -23972, -386
+8,null,null,intro,-3346, 3211, 70
+9,null,null,intro,-5217, 3787, -480
+10,null,null,intro,-806, 10, 409
+11,null,null,intro,-6153, 2813, -431
+12,null,null,hijack,-26851.5, 12645, 7187.5
+13,null,null,hijack,8326, 3852, 40
+14,null,null,sp_paris_a,3825, -1639, 912
+15,null,null,sp_paris_a,4940, 1892.5, 1116
+16,null,null,paris_b,-1691.5, -2017, 207.5
+17,null,null,paris_b,-2417, -833, 894.5
+18,null,null,berlin,29398.2, 9369.9, 25.0
+19,null,null,berlin,-1264.3, 1701.3, -8.5
+20,null,null,berlin,2337.5, 1242.5, 32.0
+21,null,null,berlin,1040.0, 5013.0, 1054.5
+22,null,null,berlin,1986.0, 5100.0, 1456.0
+23,null,null,sp_payback,4087, 4675, 451
+24,null,null,sp_payback,-1429, 2219, 478
+25,null,null,sp_payback,1823, 5441, 343
+26,null,null,warlord,3074, 9047, 977
+27,null,null,warlord,7017, 2105, 42
+28,null,null,warlord,6285, 4080, 122
+29,null,null,dubai,1592, 606, 332
+30,null,null,dubai,676, 560, 7792
+31,null,null,dubai,-720, -506, 7820
+32,null,null,paris_ac130,4068, 39926, 125
+33,null,null,paris_ac130, -22190, 13181, 20
+34,null,null,london,80346, -4256, 487
+35,null,null,london,76884, -2780, 862
+36,null,null,innocent,1272, 2008, -569
+37,null,null,prague,9560, -15262, -75
+38,null,null,prague,12238, -12742, -93
+39,null,null,hamburg,6142, -336, 117
+40,null,null,hamburg,600, 10251, 297
+41,null,null,hamburg,232, 17608, -100.5
+42,null,null,castle,-1995, 3066, 339
+43,null,null,castle,-21, 5247, 275
+44,null,null,rescue_2,5357.5, -11476.5, -8527
+45,null,null,rescue_2,8428, 857, -12697
+46,null,null,prague_escape,21512, 14392, -64
+47,null,null,undefined,undefined
+48,null,null,undefined,undefined
+49,null,null,undefined,undefined
+50,null,null,undefined,undefined
+51,null,null,undefined,undefined
+52,null,null,undefined,undefined
+53,null,null,undefined,undefined
+54,null,null,undefined,undefined
+55,null,null,undefined,undefined
+56,null,null,undefined,undefined
+57,null,null,undefined,undefined
+58,null,null,undefined,undefined
+59,null,null,undefined,undefined
+60,null,null,undefined,undefined
+61,null,null,undefined,undefined
+62,null,null,undefined,undefined
+63,null,null,undefined,undefined
+64,null,null,undefined,undefined

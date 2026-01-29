@@ -1,0 +1,306 @@
+body
+{
+	attack_player
+	{
+		german_shepherd_attack_player
+	}
+	attack_player_late
+	{
+		german_shepherd_attack_player_late
+	}
+	german_shepherd_death_front
+	
+	dog_idle_knob
+	{
+		iw6_dog_casualidle
+		iw6_dog_casualidle_turn_2
+		iw6_dog_casualidle_turn_4
+		iw6_dog_casualidle_turn_6
+	
+		iw6_dog_attackidle
+		iw6_dog_attackidle_twitch_1
+		iw6_dog_attackidle_twitch_2
+		iw6_dog_attackidle_turn_2
+		iw6_dog_attackidle_turn_4
+		iw6_dog_attackidle_turn_6
+	
+		iw6_dog_attackidle_bark
+		
+		iw6_dog_alertidle
+	
+		iw6_dog_sniff_idle
+		iw6_dog_sneakidle
+
+		iw6_dog_casualidle_base
+
+		//idle_look : additive
+		//{
+			look_2 : additive
+			{
+				iw6_dog_casualidle_2
+			}
+
+			look_4 : additive
+			{
+				iw6_dog_casualidle_4
+			}
+
+			look_6 : additive
+			{
+				iw6_dog_casualidle_6
+			}
+
+			look_8 : additive
+			{
+				iw6_dog_casualidle_8
+			}
+		//}
+
+		iw6_dog_casualidle_1
+		iw6_dog_casualidle_3
+		iw6_dog_casualidle_7
+		iw6_dog_casualidle_9
+	}
+
+	german_shepherd_viewmodel
+	{
+		german_shepherd_look
+		{
+			german_shepherd_look_forward
+			
+			german_shepherd_look_2 : additive
+			{
+				german_shepherd_look_down
+				german_shepherd_attack_look_down
+			}
+			german_shepherd_look_4 : additive
+			{
+				german_shepherd_look_right
+				german_shepherd_attack_look_right
+			}
+			german_shepherd_look_6 : additive
+			{
+				german_shepherd_look_left
+				german_shepherd_attack_look_left
+			}
+			german_shepherd_look_8 : additive
+			{
+				german_shepherd_look_up
+				german_shepherd_attack_look_up
+			}
+		}
+		
+		german_shepherd_runinplace : loopsync
+		{
+			german_shepherd_stationaryrun
+			german_shepherd_stationaryrun_lean_L
+			german_shepherd_stationaryrun_lean_R
+		}
+	}
+	
+	dog_move_turn
+	{
+		iw6_dog_run_turn_1
+		iw6_dog_run_turn_2
+		iw6_dog_run_turn_3
+		iw6_dog_run_turn_4
+		iw6_dog_run_turn_6
+		iw6_dog_run_turn_7
+		iw6_dog_run_turn_9
+	}
+	
+	dog_move
+	{
+		dog_run : loopsync
+		{
+			iw6_dog_run
+			german_shepherd_run_lean_L
+			german_shepherd_run_lean_R
+		}
+	
+		dog_walk
+		{
+			iw6_dog_walk
+			german_shepherd_walk_slow
+			iw6_dog_sniff_walk
+		    iw6_dog_sneak_walk_forward
+		}
+	
+		//iw6_dog
+		dog_slope
+		{
+			iw6_dog_ramp_up_run
+			iw6_dog_ramp_down_run
+		}
+	
+		dog_arrival
+		{
+			iw6_dog_attackidle_runin_1
+			iw6_dog_attackidle_runin_2
+			iw6_dog_attackidle_runin_3
+			iw6_dog_attackidle_runin_4
+			iw6_dog_attackidle_runin_6
+			iw6_dog_attackidle_runin_7
+			iw6_dog_attackidle_runin_8
+			iw6_dog_attackidle_runin_9
+	
+			iw6_dog_casualidle_runin_1
+			iw6_dog_casualidle_runin_2
+			iw6_dog_casualidle_runin_3
+			iw6_dog_casualidle_runin_4
+			iw6_dog_casualidle_runin_6
+			iw6_dog_casualidle_runin_7
+			iw6_dog_casualidle_runin_8
+			iw6_dog_casualidle_runin_9
+		}
+	
+		dog_exit
+		{
+			iw6_dog_attackidle_runout_1
+			iw6_dog_attackidle_runout_2
+			iw6_dog_attackidle_runout_3
+			iw6_dog_attackidle_runout_4
+			iw6_dog_attackidle_runout_6
+			iw6_dog_attackidle_runout_7
+			iw6_dog_attackidle_runout_8
+			iw6_dog_attackidle_runout_9
+		}
+	}
+	
+	german_shepherd_attack_player_miss_b
+	german_shepherd_run_attack_b
+	//german_shepherd_run_jump_40
+	//german_shepherd_run_jump_window_40
+	german_shepherd_run_pain
+	german_shepherd_run_flashbang_b
+	german_shepherd_attack_AI_01_start_a
+	german_shepherd_attack_AI_02_idle_a
+	german_shepherd_attack_AI_03_pushed_a
+	german_shepherd_attack_AI_03_shot_a
+	german_shepherd_attack_AI_04_middle_a
+	german_shepherd_attack_AI_05_kill_a
+	german_shepherd_attack_player_miss_turnR
+	german_shepherd_attack_player_miss_turnL
+	//german_shepherd_traverse_down_40
+	//german_shepherd_traverse_up_40
+	german_shepherd_traverse_up_80
+	german_shepherd_player_neck_snap
+	german_shepherd_player_neck_miss
+	german_shepherd_player_getoff
+	german_shepherd_eating
+	german_shepherd_eating_in
+	german_shepherd_eating_loop
+	german_shepherd_eating_out
+	german_shepherd_sleeping
+	german_shepherd_wakeup_slow
+	german_shepherd_wakeup_fast
+	
+	// SNIPER ESCAPE
+	sniper_escape_dog_fence
+	
+	// Warlord
+	warlord_standoff_hyena_kill
+	warlord_standoff_hyena
+	warlord_standoff_hyena_end
+	warlord_standoff_hyena_loop
+	warlord_standoff_hyena_start
+	africa_hyena_hyena
+	africa_hyena_release_hyena
+	africa_hyena_walk_hyena
+	africa_hyena_german_shepherd_eating_b
+	
+	
+	//Kingfish
+	kingfish_intro_hold_idle_dog
+	kingfish_intro_release_dog
+	kingfish_intelroom_dog
+	kingfish_breach_ambush_dog_start
+	kingfish_dog_pull_from_truck_start
+	kingfish_dog_pull_from_truck_end
+	kingfish_dog_pull_from_truck_loop
+	kingfish_church_ambush_dog
+	german_shepherd_scratch_door
+	german_shepherd_attack_fast
+	german_shepherd_attack_crouch_back
+	german_shepherd_sniff_loop
+	german_shepherd_sniff_wait_loop
+	german_shepherd_sniff_right
+	german_shepherd_sniff_left_alt1
+	german_shepherd_sniff_left
+	
+	
+	german_shepherd_130_unit_divebomb_kill
+	german_shepherd_2nd_story_roof_to_ground_kill
+	
+	german_shepherd_hvi_takedown
+	german_shepherd_hvi_takedown_loop
+	german_shepherd_jump_32_kill
+	german_shepherd_window_32_drag_kill
+	german_shepherd_attack_last_stand
+	german_shepherd_cover_drag_out_r
+	german_shepherd_cover_drag_out_l
+	
+	
+	//clockwork
+	clockwork_chaos_dogsniff_dog
+	clockwork_chaos_idle_dog
+	clockwork_chaos_alert_dog
+	clockwork_chaos_react_dog
+	clockwork_chaos_turn_dog
+	clockwork_chaos_idle2_dog
+	
+	//enemy hq
+	ehq_truck_enter_dog
+	ehq_truck_ride_idle_dog
+	ehq_wall_crash_dog
+	ehq_wall_crash_prep_dog
+	ehq_truck_drivein_hit_dog
+	ehq_vip_int_dog
+	
+	//test
+	dog_idle_test
+	
+	
+	// iw6 dog anims that needs to be placed by Jocelyn
+	iw6_dog_sniff_turn_4
+	iw6_dog_sniff_turn_6
+	iw6_dog_traverse_down_24
+	iw6_dog_traverse_over_24
+	iw6_dog_traverse_over_36
+	iw6_dog_traverse_up_24
+	iw6_dog_traverse_up_40
+	iw6_dog_traverse_down_40
+	iw6_dog_traverse_up_70
+	iw6_dog_traverse_down_70
+	iw6_dog_ramp_down_run_out_9
+	iw6_dog_ramp_down_run_out_8
+	iw6_dog_ramp_down_run_out_7
+	iw6_dog_ramp_up_run_in_9
+	iw6_dog_ramp_up_run_in_8
+	iw6_dog_ramp_up_run_in_7
+	iw6_dog_kill_back_quick_1
+	iw6_dog_kill_back_medium_1
+	iw6_dog_kill_back_long_1
+	iw6_dog_kill_front_quick_1
+	iw6_dog_kill_front_medium_1
+	iw6_dog_kill_front_long_1
+	iw6_dog_kill_breach_nml
+	iw6_dog_kill_breach_end_nml
+	iw6_dog_fastwalk
+	iw6_dog_walk_to_sprint
+	iw6_dog_sneak_idle_2_run
+  iw6_dog_sneak_stand_idle
+	iw6_dog_affection_dog_1
+	iw6_dog_attackidle_cam_bark
+	
+	
+	//scripted
+	NML_dog_intro_camera
+	iw6_dog_sneak_idle_intro
+	iw6_dog_kill_front_NML
+}
+
+camera_down : additive
+{
+	iw6_dog_camera_down_add
+}

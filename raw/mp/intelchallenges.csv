@@ -1,0 +1,12 @@
+ch_intel_headshots,LUA_MENU_INTEL_HEADSHOT,200,1,0
+ch_intel_kills,LUA_MENU_INTEL_KILLS,200,3,0
+ch_intel_target,LUA_MENU_INTEL_TARGET,200,1,0
+ch_intel_knifekill,LUA_MENU_INTEL_KNIFE_KILL,200,1,1
+ch_intel_explosivekill,LUA_MENU_INTEL_EXPLOSIVE_KILL,200,1,1
+ch_intel_tbag,LUA_MENU_INTEL_TBAG,200,1,1
+ch_intel_crouchkills,LUA_MENU_INTEL_CROUCH_KILLS,200,2,1
+ch_intel_pronekills,LUA_MENU_INTEL_PRONE_KILLS,200,1,1
+ch_intel_backshots,LUA_MENU_INTEL_BACK_KILLS,200,1,1
+ch_intel_jumpshot,LUA_MENU_INTEL_JUMP_SHOT,200,1,1
+ch_intel_secondarykills,LUA_MENU_INTEL_SECONDARY_KILLS,200,1,1
+ch_intel_foundshot,LUA_MENU_INTEL_FOUND_KILL,200,2,1

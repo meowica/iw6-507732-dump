@@ -1,0 +1,123 @@
+//==========================================================================
+//
+// Cinematic Camera Scenes
+//
+// USAGE: \game\share\raw\mp\cinematic_camera\usage.txt
+//
+// For killcam purposes: DON'T change the order of "Killcam" and "Final Killcam"
+// GSC script uses index to set which "killcam_scene" (onmvar) to play
+//
+//==========================================================================
+
+// update the version only when parser has changed
+<version> 1
+
+//==================================================================
+// Normal Killcam
+//==================================================================
+<scene> Killcam
+// rotate around the killer
+<cut>
+<movement> rotate 
+<orientation> target
+<tag> tag_eye
+<angles_pitch> -30
+<angles_yaw> -225
+<angles_range_start> 60
+<rotate_degrees_yaw> 225
+<rotate_degrees_pitch> 45
+<time> 2.5
+
+// slam zoom into killer's head
+<cut>
+<movement> zoom
+<orientation> target
+<tag_start> tag_eye
+<tag_start_pitch> 45
+<tag_start_range> 60
+<tag_end> tag_eye
+<zoom_end_radius> 15
+<time> 0.160
+<lerp> 0.25
+
+<slowmo> 0.75 0.25
+<slowmo> 1.35 1.0
+
+//==================================================================
+// Final KillCam
+// In Final KC, you are viewing from the attacker's point of view
+// the "leading actor" is the attacker and the "supporting actor" is the victim
+//==================================================================
+<scene> Final KillCam
+// rotate around the victim
+<cut>
+<movement> rotate 
+<orientation> target
+<tag> tag_eye
+<angles_pitch> -30
+<angles_yaw> -225
+<angles_range_start> 60
+<rotate_degrees_yaw> 225
+<rotate_degrees_pitch> 45
+<rotate_focus_supporting_actor> 1
+<time> 1
+
+// pan from victim to attacker, pointing aim at attacker
+<cut>
+<movement> pan
+<orientation> target
+<tag_focus> tag_eye
+<tag_end> tag_eye
+<tag_end_pitch> -15
+<tag_end_yaw> -180
+<tag_end_range> 60
+<time> 0.75
+<lerp> 0.3
+
+// rotate around the killer
+<cut>
+<movement> rotate 
+<orientation> target
+<tag> tag_eye
+<angles_pitch> -15
+<angles_yaw> -180
+<angles_range_start> 60
+<rotate_degrees_yaw> 180
+<rotate_degrees_pitch> 45
+<time> 1
+<lerp> 0.3
+
+// slam zoom into killer's head
+<cut>
+<movement> zoom
+<orientation> target
+<tag_start> tag_eye
+<tag_start_pitch> 30
+<tag_start_range> 60
+<tag_end> tag_eye
+<zoom_end_radius> 15
+//<zoom_end_radius_angles> 30
+<time> 0.160
+<lerp> 0.25
+
+<slowmo> 0.25 0.1
+<slowmo> 0.75 1.0
+<slowmo> 1.75 0.1
+<slowmo> 2.0 1.0
+
+//==================================================================
+// Battle Buddy
+//==================================================================
+<scene> Battle Buddy
+// rotate around
+<cut>
+<movement> rotate 
+<orientation> target
+<tag> tag_eye
+<angles_pitch> 15
+<angles_yaw> -45
+<angles_range_start> 60
+<angles_range_end> 15
+<rotate_angles_world> 0
+<rotate_degrees_yaw> 45
+<time> 1.5
